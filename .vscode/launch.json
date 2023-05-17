@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "com.jacksonleb.Main",
+      "projectName": "turtorial"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "turtorial"
+    },
+    {
+      "type": "java",
+      "name": "TurtorialApplication",
+      "request": "launch",
+      "mainClass": "jacksonleb.example.turtorial.TurtorialApplication",
+      "projectName": "turtorial"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-TurtorialApplication<turtorial>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.jacksonleb.turtorial.TurtorialApplication",
+      "projectName": "turtorial",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52155 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=turtorial"
+    }
+  ]
+}
